@@ -89,12 +89,12 @@ Forneça alguns repositórios de exemplo para o Backend por meio da API:
 
 - **`POST /repositories`**: a rota espera receber um objeto JSON com as informações `title`,`url` e `techs` no corpo da requisição.
 
-```javascript
+```json
 // Exemplo de um objeto JSON no corpo da requisição
 {
-	"title": "Desafio React Native",
-	"url": "https://github.com/prenato84/conceitos-react-native",
-	"techs": ["React Native", "Axios", "Node.js", "Express", "Jest"],
+  "title": "Desafio React Native",
+  "url": "https://github.com/prenato84/conceitos-react-native",
+  "techs": ["React Native", "Axios", "Node.js", "Express", "Jest"]
 }
 ```
 
