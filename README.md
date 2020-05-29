@@ -1,4 +1,4 @@
-# bootcamp-gostack-desafio-3
+# bootcamp-gostack-desafio-4
 
 Desafio 4 do Bootcamp GoStack 11
 
@@ -35,28 +35,22 @@ Desafio 4 do Bootcamp GoStack 11
 
 ## :rocket: Sobre o desafio
 
-Nesse desafio foi criada uma aplicação para treinar o que aprendi até agora sobre ReactJS!
+Nesse desafio foi criada uma aplicação para treinar o que aprendi até agora sobre React Native!
 
-Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no último desafio utilizando o Node.js **[Link para o Desafio 2](https://github.com/prenato84/conceitos-nodejs)**
-
----
-
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no React Native!
-
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend utilizando o Node.js, e no último desafio em ReactJS.
+Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no desafio 2 utilizando o Node.js **[Link para o Desafio 2](https://github.com/prenato84/conceitos-nodejs)**
 
 ### :keyboard: Instalação e Execução dos Testes
 
 - Clone este repositório
 
 ```
-> git clone https://github.com/prenato84/conceitos-reactjs
+> git clone https://github.com/prenato84/conceitos-react-native
 ```
 
 - Navegue até o diretório principal do projeto
 
 ```
-> cd conceitos-reactjs
+> cd conceitos-react-native
 ```
 
 - Instale as dependências com o Yarn
