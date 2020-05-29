@@ -37,7 +37,11 @@ Desafio 4 do Bootcamp GoStack 11
 
 Nesse desafio foi criada uma aplicação para treinar o que aprendi até agora sobre React Native!
 
-Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no desafio 2 utilizando o Node.js **[Link para o Desafio 2](https://github.com/prenato84/conceitos-nodejs)**
+<p align="center">
+  <img width="32%" src="./assets/mobile.png">
+</p>
+
+Foi dado continuidade ao desenvolvimento da aplicação que irá armazenar repositórios do meu portfólio. O backend foi desenvolvido no desafio 2 utilizando o Node.js: **[Link para o Desafio 2](https://github.com/prenato84/conceitos-nodejs)**
 
 ### :keyboard: Instalação e Execução dos Testes
 
@@ -66,12 +70,12 @@ yarn test
 ```
 
 <p align="center">
-  <img src="./assets/tests.png">
+  <img width="70%" src="./assets/test.png">
 </p>
 
 ### :keyboard: Execução do Projeto
 
-Como esse projeto é apenas o frontend da aplicação, é necessário antes instalar e executar o projeto do backend conforme instruções do repositório dele **[Conceitos do Node.js](https://github.com/prenato84/conceitos-nodejs)**.
+Como esse projeto é apenas o frontend da aplicação, é necessário antes instalar e executar o projeto do backend conforme instruções do repositório dele: **[Conceitos do Node.js](https://github.com/prenato84/conceitos-nodejs)**.
 
 Com o backend iniciado, agora é possível que o frontend realiza as chamadas à API Rest disponibilizada por ele.
 
@@ -81,11 +85,20 @@ Para a execução do front, após ter instalado as dependências, basta iniciar 
 yarn start
 ```
 
-Uma página como esta será exibida permitindo adição e remoção de repositórios.
+Forneça alguns repositórios de exemplo para o Backend por meio da API:
 
-<p align="center">
-  <img src="./assets/project_index.png">
-</p>
+- **`POST /repositories`**: a rota espera receber um objeto JSON com as informações `title`,`url` e `techs` no corpo da requisição.
+
+```javascript
+// Exemplo de um objeto JSON no corpo da requisição
+{
+	"title": "Desafio React Native",
+	"url": "https://github.com/prenato84/conceitos-react-native",
+	"techs": ["React Native", "Axios", "Node.js", "Express", "Jest"],
+}
+```
+
+Ao cadastrar um novo repositório, ele será armazenado em memória dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; O ID é um UUID - Universal Unique Identifier.
 
 ### Template da aplicação
 
